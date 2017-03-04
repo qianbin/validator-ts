@@ -1,6 +1,6 @@
 {
   "name": "validator-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tiny framework to perform data validation and sanitization",
   "main": "validator.js",
   "types": "validator.d.ts",
