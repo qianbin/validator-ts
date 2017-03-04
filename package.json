@@ -1,0 +1,22 @@
+{
+    "name": "validator-ts",
+    "version": "0.0.1",
+    "description": "A tiny framework to perform data validation and sanitization",
+    "main": "validator.js",
+    "types": "validator.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "validator",
+        "validation",
+        "sanitize",
+        "sanitizer"
+    ],
+    "author": "qianbin<cola.tin.com@gmail.com>",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npm/npm.git"
+    }
+}
