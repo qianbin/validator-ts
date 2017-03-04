@@ -153,7 +153,7 @@ export class Validator<T>  {
     }
 
     extra(rule: Validator.Rule<T>) {
-        return new Validator<T>(this.rule, this.transformer, this.extraRules.concat(rule))
+        return new Validator<T>(this.rule, this.transformer, this.extraRules.concat([rule]))
     }
 
     run(value: T, scope?: string): T {
