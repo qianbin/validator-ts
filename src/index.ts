@@ -45,8 +45,8 @@ export class Validator<T> {
 
 /** Error class describes validation error */
 export class ValidationError extends Error {
-    constructor(msg: string, readonly context: string) {
-        super(msg)
+    constructor(readonly rawMessage: string, readonly context: string) {
+        super(context ? `${context}: ${rawMessage}` : rawMessage)
     }
 }
 
